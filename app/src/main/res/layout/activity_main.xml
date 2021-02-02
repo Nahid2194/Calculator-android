@@ -40,6 +40,7 @@
     android:layout_height="wrap_content"
     android:text="+"
     android:textSize="30sp"
+    android:onClick="plusFunction"
     android:textStyle="bold"/>
 
 <Button
@@ -49,6 +50,7 @@
     android:layout_height="wrap_content"
     android:text="-"
     android:textSize="30sp"
+    android:onClick="subFunction"
     android:textStyle="bold"/>
 <Button
     android:id="@+id/multiplyButtonId"
@@ -57,15 +59,28 @@
     android:layout_height="wrap_content"
     android:text="*"
     android:textSize="30sp"
+    android:onClick="mulFunction"
     android:textStyle="bold"/>
 <Button
     android:id="@+id/divisionButtonId"
     android:layout_width="0dp"
     android:layout_weight="1"
+    android:onClick="divFunction"
     android:layout_height="wrap_content"
     android:text="/"
     android:textSize="30sp"
-    android:textStyle="bold"/>
+    android:textStyle="bold"
+    tools:ignore="OnClick" />
     </LinearLayout>
+
+    <TextView
+        android:id="@+id/resultTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Output"
+        android:layout_marginTop="30dp"
+        android:textStyle="bold"
+        android:textSize="40dp"
+        android:gravity="center"/>
 
 </LinearLayout>
