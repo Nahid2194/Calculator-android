@@ -20,31 +20,34 @@ public class MainActivity extends AppCompatActivity {
         resultTextView = findViewById(R.id.resultTextView);
     }
 
-    public void divFunction(View view) {
-        num1 = Integer.parseInt(firstNumberId.getText().toString());
-        num2 =  Integer.parseInt(secondNumberId.getText().toString());
-        int result = num1 / num2;
-        resultTextView.setText("Result is "+result);
+    public void buttonFunction(View view) {
     }
 
-    public void plusFunction(View view) {
-        num1 = Integer.parseInt(firstNumberId.getText().toString());
-        num2 =  Integer.parseInt(secondNumberId.getText().toString());
-        int result = num1 + num2;
-        resultTextView.setText("Result is "+result);
-    }
-
-    public void subFunction(View view) {
-        num1 = Integer.parseInt(firstNumberId.getText().toString());
-        num2 =  Integer.parseInt(secondNumberId.getText().toString());
-        int result = num1 - num2;
-        resultTextView.setText("Result is "+result);
-    }
-
-    public void mulFunction(View view) {
-        num1 = Integer.parseInt(firstNumberId.getText().toString());
-        num2 =  Integer.parseInt(secondNumberId.getText().toString());
-        int result = num1 * num2;
-        resultTextView.setText("Result is "+result);
-    }
+//    public void divFunction(View view) {
+//        num1 = Integer.parseInt(firstNumberId.getText().toString());
+//        num2 =  Integer.parseInt(secondNumberId.getText().toString());
+//        int result = num1 / num2;
+//        resultTextView.setText("Result is "+result);
+//    }
+//
+//    public void plusFunction(View view) {
+//        num1 = Integer.parseInt(firstNumberId.getText().toString());
+//        num2 =  Integer.parseInt(secondNumberId.getText().toString());
+//        int result = num1 + num2;
+//        resultTextView.setText("Result is "+result);
+//    }
+//
+//    public void subFunction(View view) {
+//        num1 = Integer.parseInt(firstNumberId.getText().toString());
+//        num2 =  Integer.parseInt(secondNumberId.getText().toString());
+//        int result = num1 - num2;
+//        resultTextView.setText("Result is "+result);
+//    }
+//
+//    public void mulFunction(View view) {
+//        num1 = Integer.parseInt(firstNumberId.getText().toString());
+//        num2 =  Integer.parseInt(secondNumberId.getText().toString());
+//        int result = num1 * num2;
+//        resultTextView.setText("Result is "+result);
+//    }
 }

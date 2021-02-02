@@ -11,6 +11,7 @@
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:hint="1st Number"
+    android:inputType="number"
     android:id="@+id/firstNumberId"
     android:layout_marginTop="20sp"
     android:textSize="30sp"
@@ -21,6 +22,7 @@
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:hint="2nd Number"
+    android:inputType="number"
     android:id="@+id/secondNumberId"
     android:layout_marginTop="20sp"
     android:textSize="30sp"
@@ -40,7 +42,7 @@
     android:layout_height="wrap_content"
     android:text="+"
     android:textSize="30sp"
-    android:onClick="plusFunction"
+    android:onClick="buttonFunction"
     android:textStyle="bold"/>
 
 <Button
@@ -50,7 +52,7 @@
     android:layout_height="wrap_content"
     android:text="-"
     android:textSize="30sp"
-    android:onClick="subFunction"
+    android:onClick="buttonFunction"
     android:textStyle="bold"/>
 <Button
     android:id="@+id/multiplyButtonId"
@@ -59,13 +61,13 @@
     android:layout_height="wrap_content"
     android:text="*"
     android:textSize="30sp"
-    android:onClick="mulFunction"
+    android:onClick="buttonFunction"
     android:textStyle="bold"/>
 <Button
     android:id="@+id/divisionButtonId"
     android:layout_width="0dp"
     android:layout_weight="1"
-    android:onClick="divFunction"
+    android:onClick="buttonFunction"
     android:layout_height="wrap_content"
     android:text="/"
     android:textSize="30sp"
