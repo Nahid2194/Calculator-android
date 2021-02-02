@@ -21,6 +21,22 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void buttonFunction(View view) {
+        int result;
+        num1 = Integer.parseInt(firstNumberId.getText().toString());
+        num2 =  Integer.parseInt(secondNumberId.getText().toString());
+        if(view.getId()==R.id.plusButtonId){
+             result = num1 + num2;
+        }
+        else if(view.getId()==R.id.minusButtonId){
+             result = num1 - num2;
+        }
+        else if(view.getId()==R.id.divisionButtonId){
+             result = num1 / num2;
+        }
+        else if(view.getId()==R.id.multiplyButtonId){
+             result = num1 *num2;
+        }
+        resultTextView.setText("Result is "+result);
     }
 
 //    public void divFunction(View view) {
