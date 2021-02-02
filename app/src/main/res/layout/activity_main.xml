@@ -28,19 +28,44 @@
 
 </EditText>
     <LinearLayout
+        android:layout_marginTop="20dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="horizontal">
+        android:orientation="horizontal"
+        android:weightSum="4">
 <Button
     android:id="@+id/plusButtonId"
-    android:layout_width="match_parent"
+    android:layout_width="0dp"
+    android:layout_weight="1"
     android:layout_height="wrap_content"
     android:text="+"
     android:textSize="30sp"
     android:textStyle="bold"/>
 
-
-
+<Button
+    android:id="@+id/minusButtonId"
+    android:layout_width="0dp"
+    android:layout_weight="1"
+    android:layout_height="wrap_content"
+    android:text="-"
+    android:textSize="30sp"
+    android:textStyle="bold"/>
+<Button
+    android:id="@+id/multiplyButtonId"
+    android:layout_width="0dp"
+    android:layout_weight="1"
+    android:layout_height="wrap_content"
+    android:text="*"
+    android:textSize="30sp"
+    android:textStyle="bold"/>
+<Button
+    android:id="@+id/divisionButtonId"
+    android:layout_width="0dp"
+    android:layout_weight="1"
+    android:layout_height="wrap_content"
+    android:text="/"
+    android:textSize="30sp"
+    android:textStyle="bold"/>
     </LinearLayout>
 
 </LinearLayout>
